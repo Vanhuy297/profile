@@ -1,4 +1,12 @@
 body {
+  background: url("https://github.com/Vanhuy297/anhdep/blob/main/wallpaper_mikael_gustafsson%20(1).png?raw=true") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+body {
   background: url("") no-repeat center center fixed;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
