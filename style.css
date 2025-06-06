@@ -1,0 +1,97 @@
+body {
+  background: url('https://images.unsplash.com/photo-1420496368970-d83b063b5b48?fit=crop&fm=jpg&h=700&q=80&w=1225') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  padding-top: 50px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("https://scontent.fvii1-1.fna.fbcdn.net/v/t39.30808-1/454325787_2029759024106321_8199622319801522062_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=PajGHejmly8Q7kNvwHsFaLq&_nc_oc=Adm8aSVAtZQQzFFahekn1wwnFcI1Kq5usS8WKcH1fhr-6NsIOT9hPWTGic7BiQkvvhXotpwZ9NLgy8YDUbO3wq5l&_nc_zt=24&_nc_ht=scontent.fvii1-1.fna&_nc_gid=Gx7OLn4Dbc8KWKO4TIss1w&oh=00_AfMV9LdF8_VZt4IcqaunEDuH701Qu60YJyrkt6WLWTGCzg&oe=68482A8F") center center no-repeat;
+  background-size: cover;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 0 1px #eee;
+  transition: transform 1.2s ease-in-out;
+}
+
+.image:hover {
+  box-shadow: 0px 5px 20px .9px #3F3F3F;
+  transform: scale(1.12);
+}
+
+.text {
+  font-size: 40px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.text1 {
+  font-size: 21px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.panel-group {
+  margin-top: 30px;
+}
+
+.panel-heading {
+  background-color: transparent !important;
+}
+
+.title {
+  background-color: transparent;
+  color: #000;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.btn-danger.btn-outline {
+  border: 1px solid #000;
+  color: #000;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-danger.btn-outline:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#form input, #form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  background: transparent;
+  color: #000;
+  transition: 0.3s;
+}
+
+#form input:hover, #form textarea:hover {
+  background: #ccc;
+  color: #fff;
+}
+
+#submit {
+  background: transparent;
+  border: 1px solid #eee;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #ccc;
+  color: #fff;
+}
